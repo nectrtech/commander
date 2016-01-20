@@ -1,2 +1,2 @@
 # commander
-multiple entry + search input field built in angular - configurable.
+Multiple entry + search input field directive built in angular - configurable.
