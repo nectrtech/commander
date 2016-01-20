@@ -1,0 +1,15 @@
+<div class="db-commander-container">
+  <!--todo - proper form/layout fields-->
+  <input type="text" ng-model="searchTerm" placeholder="{{dbCommandConfig.prompt}}" class="{{dbCommandConfig.inputClass}}"/>
+  <div class="db-commander-search-row" ng-show="currentSearchTerms">
+    Available Commands (for typeahead): {{currentSearchTerms}}
+  </div>
+  <!--<div class="db-commander-search-dropdown" ng-if="currentSearchTerms">-->
+    <!--<div class="db-commander-searching" ng-show="currentSearchTerms.length == 0">No results...</div>-->
+    <!--<div class="db-commander-searching" ng-show="currentSearchTerms.length > 0">-->
+      <!--<div class="db-commander-search-row" ng-repeat="searchTerm in currentSearchTerms">-->
+        <!--<span>{{searchTerm}}</span>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+</div>
